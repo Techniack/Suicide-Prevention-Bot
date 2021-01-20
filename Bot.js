@@ -24,7 +24,7 @@ client.on('message', message => {
 		message.author.send(`Hello ${user}, I hope you are doing OK. I noticed that some messages you sent talk about depression and/or suicide. I just wanted to let you know that there is help availible.`);
 		message.author.send("If you are in the US, Please call `1-800-273-8255` for assistance. If you are outside the US, please consult the guide below for more information:");
 		message.author.send(`https://www.opencounseling.com/suicide-hotlines`);
-		message.author.send("If you would like to speek with a human, Please type `s.human`");
+		//message.author.send("If you would like to speek with a human, Please type `s.human`");
 }});
 // login to Discord with your app's token
 client.login(token);
